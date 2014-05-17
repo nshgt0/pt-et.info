@@ -16,7 +16,7 @@ decryptString($String)
 		echo 'CompanyID: '.$ticketInformation[0]; 
 		echo 'VehicleID: '.$ticketInformation[1];
 		echo 'Creation DateTime: '. $ticketInformation[2].'-'.$ticketInformation[3];  
-		echo 'Duration: '.$ticketInformation[4].'<br>'; 
+		echo 'Duration: '.$ticketInformation[4]; 
 		echo 'PaymentAccount(Hidden): '.$ticketInformation[5]; 
 		echo "Με τις παραπάνω πληροφορίες ο ελεγκτής μπορεί πλέον να κρίνει την εγκυρότητα του ηλεκτρονικού εισιτηρίου που του έδειξε ο επιβάτης.";
 		echo "Ευχαριστούμε που είδατε όλο το demo :)";	
