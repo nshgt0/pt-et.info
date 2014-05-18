@@ -1,5 +1,5 @@
 <?php
-require_once ('lib/nusoap/nusoap.php'); 
+	require_once ('lib/nusoap/nusoap.php'); 
 //Δημιουργία soap client
 	$client = new nusoap_client('http://pt-et.info/TicketServer.php'); 
 //$param = η μεταβλητή στην οποία έχουμε αποθηκευμένες τις παραμέτρους που
